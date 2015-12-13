@@ -3,9 +3,10 @@ VARIANT         := standard
 ARDUINO_HOME    := /opt/arduino
 ARDUINO_LIBRARY := lib$(BOARD).a
 
-AR        := "$(ARDUINO_HOME)/hardware/tools/avr/bin/avr-ar"
-CC        := "$(ARDUINO_HOME)/hardware/tools/avr/bin/avr-gcc"
-CXX       := "$(ARDUINO_HOME)/hardware/tools/avr/bin/avr-g++"
+AR  := "$(ARDUINO_HOME)/hardware/tools/avr/bin/avr-ar"
+CC  := "$(ARDUINO_HOME)/hardware/tools/avr/bin/avr-gcc"
+CXX := "$(ARDUINO_HOME)/hardware/tools/avr/bin/avr-g++"
+
 MCU       := -mmcu=atmega328p
 CPU_SPEED := -DF_CPU=16000000L
 DEFINES   := -DARDUINO=10606 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR

@@ -3,6 +3,6 @@ src/
 include/
 
 arduino.config
-arduino.creator
+arduino.creator*
 arduino.files
 arduino.includes
